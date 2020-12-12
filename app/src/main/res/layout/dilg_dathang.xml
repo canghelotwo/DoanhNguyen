@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="630dp"
+    tools:context=".DIALOG_DH" >
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="625dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bg" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:background="#DBEDF8"
+            android:text="   SIZE"
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="   Nhỏ "
+                android:textSize="20dp" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="   Vừa "
+                android:textSize="20dp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="   Lớn "
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:background="#DBEDF8"
+            android:text="   Hình thức giao hàng: "
+            android:textColor="#3F51B5"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="   Tự Đến Lấy "
+                android:textSize="20dp" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="   Giao Tận Nơi "
+                android:textSize="20dp" />
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:background="#DBEDF8"
+                android:text="   Số Lượng: "
+                android:textColor="#3F51B5"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/bt_tru_306"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="22dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/circlebtn"
+                android:text="-"/>
+            <TextView
+                android:id="@+id/tvsl_306"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1"
+                android:textSize="28dp"
+                ></TextView>
+            <Button
+                android:id="@+id/bt_cong_306"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/circlebtn"
+                android:text="+"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/bt_ok_306"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_gradient"
+            android:text="Xác Nhận" />
+
+    </LinearLayout>
+</LinearLayout>

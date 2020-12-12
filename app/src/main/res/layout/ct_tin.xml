@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".CTTIN">
+    <ImageButton
+        android:id="@+id/btn_back_306"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/bg1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:text="Hè không nóng cùng the coffe house -- Nhập mã nhận ngay khuyến mãi 25-30% nào cả nhà ơi"
+
+        />
+</RelativeLayout>
